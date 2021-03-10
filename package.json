@@ -1,0 +1,28 @@
+{
+  "name": "campusweekly",
+  "version": "1.0.0",
+  "description": "This project is all about your weekly campus news",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XamuelUG/CampusWeekly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XamuelUG/CampusWeekly/issues"
+  },
+  "homepage": "https://github.com/XamuelUG/CampusWeekly#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
