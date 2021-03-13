@@ -22,6 +22,7 @@ h2 {
   color: #fff;
   height: 5vh;
   align-items: center;
+  width: 100%;
 }
 
 /* header 2 css */
@@ -49,8 +50,8 @@ h2 {
 .header2 nav ul {
   list-style: none;
   display: flex;
-  /* margin-right: 50px; */
 }
+
 .nav-menu-link a {
   padding: 10px;
   border: 1px solid #ededed;
@@ -163,4 +164,12 @@ span {
   color: green;
   font-size: 20px;
   font-weight: bold;
+}
+
+/* responsive-ness*/
+
+@media (max-width: 360px) {
+  .controls {
+    display: none;
+  }
 }
