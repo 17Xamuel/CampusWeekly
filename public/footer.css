@@ -1,0 +1,35 @@
+/* footer css */
+
+footer {
+  color: #fff;
+}
+footer .firstDiv {
+  /* display: flex; */
+  /* margin: auto; */
+  background-color: #3a5caa;
+}
+.ft-interior {
+  padding: 40px;
+  background-color: rgb(90, 130, 241);
+  width: 75%;
+  margin: auto;
+}
+
+.ft-one {
+  padding-bottom: 20px;
+}
+.ft-two a {
+  background-color: rgb(61, 59, 59);
+  padding: 3px;
+  border-radius: 3px;
+  color: rgb(207, 173, 173);
+}
+.ft-two a:hover {
+  color: beige;
+}
+footer .secDiv {
+  background-color: #031236;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
