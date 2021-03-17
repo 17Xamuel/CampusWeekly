@@ -38,3 +38,45 @@
   column-gap: 10px;
   row-gap: 10px;
 }
+.cw-title-sm {
+  font-size: 20px;
+  font-weight: 600;
+}
+.cw-ct {
+  background-color: #3a5caa;
+  color: white;
+  border-radius: 5px;
+  margin: 15px 15px 15px 0px;
+  padding: 10px;
+}
+.cw-img {
+  width: 95%;
+  height: 250px;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.cw-img-trending {
+  width: 95%;
+  height: 200px;
+  margin: 10px auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .cw-ctr {
+    width: 90%;
+  }
+  .cw-top-stories {
+    flex-direction: column;
+  }
+  .cw-campus {
+    flex-direction: column-reverse;
+  }
+  .cw-img {
+    width: 95%;
+    height: 200px;
+    margin: auto;
+    object-fit: cover;
+  }
+}

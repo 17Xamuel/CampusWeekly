@@ -6,6 +6,7 @@
   height: 3vh;
   align-items: center;
   font-size: 13px;
+  width: 100vw;
 }
 .header1 > .quick-links > a {
   color: #fff;

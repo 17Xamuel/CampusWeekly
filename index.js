@@ -24,6 +24,9 @@ app.get("/relationships", function (req, res) {
 app.get("/personalities", function (req, res) {
   res.render("personalities");
 });
+app.get("/post", function (req, res) {
+  res.render("story");
+});
 
 app.listen(PORT, () => {
   console.log(`Server started on Port ${PORT} ....`);
